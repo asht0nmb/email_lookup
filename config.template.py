@@ -11,11 +11,7 @@ RESULT_ROW_SEL          = 'table.results tbody tr'
 EMAIL_CELL_SEL          = 'td.email-column'
 
 # 3) File paths
-NAMES_FILE        = 'path/to/your/input.csv'
-OUTPUT_FILE       = 'path/to/your/output.csv'
-
 # Path to your input CSV (with a “Name” column)
-NAMES_FILE  = 'path/to/your/input.csv'
-
+NAMES_FILE        = 'path/to/your/input.csv' 
 # Path to where you want the output written
-OUTPUT_FILE = 'path/to/your/output.csv'
+OUTPUT_FILE       = 'path/to/your/output.csv'
