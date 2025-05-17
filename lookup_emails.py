@@ -12,16 +12,14 @@ from selenium.common.exceptions import StaleElementReferenceException, InvalidSe
 
 # ——— CONFIG ———
 WRITE_RESULTS                = False  # <- Make 'False' to test - 'True' to output csv
-LOGIN_URL                    = 'https://directory.uw.edu/'
-SEARCH_URL                   = 'https://directory.uw.edu/'
-SIGNIN_BUTTON_SELECTOR       = (By.CSS_SELECTOR, '#sign-in')
-SEARCH_INPUT_SELECTOR        = (By.ID, 'query')
-STUDENTS_ONLY_LABEL_SELECTOR = (By.CSS_SELECTOR, '#search-population > div > label:nth-child(2)')
-RESULT_ROW_SELECTOR          = (By.CSS_SELECTOR, 'table.table-condensed tbody tr.summary-row')
-EMAIL_CELL_SELECTOR          = (By.CSS_SELECTOR, 'td:nth-child(3)')
-COOKIES_FILE                 = 'cookies.pkl'
-
 import config
+LOGIN_URL                    = config.LOGIN_URL
+SEARCH_URL                   = config.SEARCH_URL
+SIGNIN_BUTTON_SELECTOR       = (By.CSS_SELECTOR, config.SIGNIN_BUTTON_SEL)
+SEARCH_INPUT_SELECTOR        = (By.CSS_SELECTOR, config.SEARCH_INPUT_SEL)
+STUDENTS_ONLY_LABEL_SELECTOR = (By.CSS_SELECTOR, config.STUDENTS_ONLY_LABEL_SEL)
+RESULT_ROW_SELECTOR          = (By.CSS_SELECTOR, config.RESULT_ROW_SEL)
+EMAIL_CELL_SELECTOR          = (By.CSS_SELECTOR, config.EMAIL_CELL_SEL)
 NAMES_FILE                   = config.NAMES_FILE
 OUTPUT_FILE                  = config.OUTPUT_FILE
 # ——————————
