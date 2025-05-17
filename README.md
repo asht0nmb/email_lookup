@@ -1,13 +1,12 @@
 # Email Scraper
 
-Automates lookups in the student directory and writes Name→Email mappings to a CSV, with built‑in 2FA handling, checkpointing, and optional headless mode.
+Automates lookups in a student directory and writes Name→Email mappings to a CSV, with built‑in login and 2FA handling, checkpointing, and optional headless mode.
 
 ## 🚀 Prerequisites
 
 - **Python 3.10+**  
 - **Google Chrome** (version matching your ChromeDriver)  
 - **ChromeDriver** on your `PATH`  
-- A **UW Login** 
 
 ## 🔧 Installation
 
