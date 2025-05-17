@@ -32,7 +32,7 @@ def get_authenticated_driver():
     WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable(SIGNIN_BUTTON_SELECTOR)
     ).click()
-    input("Complete UW login + Duo 2FA in the browser, then press Enter here…")
+    input("Complete login + 2FA in the browser, then press Enter here…")
     pickle.dump(driver.get_cookies(), open(COOKIES_FILE, 'wb'))
     return driver
 
