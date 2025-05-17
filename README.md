@@ -1,6 +1,6 @@
 # Email Scraper
 
-Automates lookups in the UW student directory and writes Name→Email mappings to a CSV, with built‑in Duo 2FA handling, checkpointing, and optional headless mode.
+Automates lookups in the student directory and writes Name→Email mappings to a CSV, with built‑in Duo 2FA handling, checkpointing, and optional headless mode.
 
 ## 🚀 Prerequisites
 
