@@ -7,7 +7,7 @@ Automates lookups in the UW student directory and writes Name→Email mappings t
 - **Python 3.10+**  
 - **Google Chrome** (version matching your ChromeDriver)  
 - **ChromeDriver** on your `PATH`  
-- A **UW NetID** with Duo 2FA  
+- A **UW Login** 
 
 ## 🔧 Installation
 
